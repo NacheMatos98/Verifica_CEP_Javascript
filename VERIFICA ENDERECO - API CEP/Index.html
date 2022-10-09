@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>CONSUMIR API DE CEP</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title">Verifique endereço com CEP</h1>
+    </header>
+
+    <main class="container">
+
+        <div class="cep">
+            <label for="cep">CEP</label>
+            <input type="text" class="cep-campo" id="cep" required>
+        </div>
+
+        <div class="bloco1">
+            <div class="endereco">
+                <label for="endereco">Endereço</label>
+                <input type="text" class="campo" id="endereco" required>
+            </div>
+
+            <div class="bairro">
+                <label for="bairro">Bairro</label>
+                <input type="text" class="campo" id="bairro" required>
+            </div>
+        </div>
+
+
+        <div class="bloco2">
+            <div class="cidade">
+                <label for="cidade">Cidade</label>
+                <input type="text" class="campo" id="cidade" required>
+            </div>
+
+            <div class="estado">
+                <label for="estado">Estado</label>
+                <input type="text" class="campo" id="estado" required>
+            </div>
+        </div>
+
+        <button onclick="limpar()">Limpar</button>
+
+    </main>
+
+    <footer>
+        <p>&copy; Nache Matos</p>
+    </footer>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
